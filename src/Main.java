@@ -75,9 +75,9 @@ public class Main {
         char [] array3 = {'a', 'b', 'c', 'd', 'e'};
 
         int i;
-        for (i=array1.length-1; i>0;  i--){
+        for (i=array1.length-1; i>=0;  i--){
 
-            if (i>1){
+            if (i>0){
                 System.out.print(array1[i]+", ");
             } else {
                 System.out.print(array1[i]);
@@ -85,9 +85,9 @@ public class Main {
             }
         }
 
-        for (i=array2.length-1; i>0;  i--){
+        for (i=array2.length-1; i>=0;  i--){
 
-            if (i>1){
+            if (i>0){
                 System.out.print(array2[i]+", ");
             } else {
                 System.out.print(array2[i]);
@@ -95,9 +95,9 @@ public class Main {
             }
         }
 
-        for (i=array3.length-1; i>0;  i--){
+        for (i=array3.length-1; i>=0;  i--){
 
-            if (i>1){
+            if (i>0){
                 System.out.print(array3[i]+", ");
             } else {
                 System.out.print(array3[i]);
